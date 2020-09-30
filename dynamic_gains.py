@@ -1,7 +1,7 @@
 from tkinter import messagebox
 
-from DatabaseConnection import Database as db
-from GetData import GetData
+from database_connection import Database as db
+from get_data import GetData
 
 connection_to_database = db.connection_to_database()
 cursor = db.database_cursor(connection_to_database)
